@@ -13,3 +13,7 @@ p {
 #p2 {
     font-size: 10px;
 }
+
+.yellow {
+    background-color: yellow;
+}
