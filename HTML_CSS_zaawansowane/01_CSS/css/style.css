@@ -1,10 +1,10 @@
-/*p { zadanie 1 - drugi styl przesłania pierwszy
-    font-size: 12px;
+p { 
+    font-size: 12px !important;
 }
 
 p {
     font-size: 40px;
-}*/
+}
 
 #p1 {
     font-size: 20px;
