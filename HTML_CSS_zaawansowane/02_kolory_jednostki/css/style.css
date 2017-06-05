@@ -11,4 +11,7 @@
 #pInDiv {
     background-color: grey;
     width: 50%;
+    /*    font-size: 1rem; jednostka zależna względem rozmiaru fontu el. nadrzędnego*/
+    /*    font-size: 1em; jednostka zal. od wielkości fontu elementu*/
+    /*    font-size: 40px; niezależne wyświetlanie w pikselach*/
 }
