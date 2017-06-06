@@ -1,6 +1,36 @@
 /* ----- Task 1 ----- */
 
+p {
+    background-color: red;
+}
 
+#inny {
+    background-color: blue;
+}
+
+.blog {
+    background-color: #c2b280;
+}
+
+div .blog p {
+    background-color: pink;
+}
+
+div #rodzic > p {
+    background-color: green;
+}
+
+#rodzic p {
+    background-color: blue;
+}
+
+#other + p {
+    background-color: brown;
+}
+
+#other div p {
+    background-color: violet;
+}
 
 /* ----- Task 2 ----- */
 
