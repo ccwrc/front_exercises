@@ -52,3 +52,18 @@ div .important:not(p) {
 
 /* ----- Task 3 ----- */
 
+input[type="submit"] {
+    background-color: blue;
+}
+
+input[type="email"] {
+    background-color: green;
+}
+/* https://www.w3.org/TR/CSS21/selector.html%23id-selectors */
+span[class~="important"] {
+    background-color: red;
+}
+/* http://webkod.pl/kurs-css/selektory/atrybuty/selektor-atrybutu-ktorego-wartosc-rozpoczyna-sie-od-danego-ciagu-znakow */
+span[class^="important"] {
+    background-color: pink;
+}
