@@ -34,7 +34,21 @@ div #rodzic > p {
 
 /* ----- Task 2 ----- */
 
+h1, h2, h3, h4, h5 {
+    background-color: green;
+}
 
+.white, .black {
+    background-color: grey;
+}
+
+div .important:not(p) {
+    background-color: green;
+}
+
+.white, .black, .important  {
+    background: blue;
+}
 
 /* ----- Task 3 ----- */
 
