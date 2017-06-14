@@ -1,8 +1,9 @@
 #div1 {
-    width: 100px;
+    width: 400px;
     height: 90px;
     border: 1px solid red;
     margin-top: 20px;
+    padding: 5px 5px 5px 5px;
 }
 
 #div2 {
@@ -10,4 +11,5 @@
     height: 190px;
     border: 1px solid red;
     margin-top: 20px;
+    padding: 5px 5px 5px 5px;
 }
