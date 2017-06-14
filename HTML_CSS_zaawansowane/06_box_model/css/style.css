@@ -4,6 +4,7 @@
     border: 1px solid red;
     margin-top: 20px;
     padding: 5px 5px 5px 5px;
+    display: inline-block;
 }
 
 #div2 {
@@ -12,8 +13,10 @@
     border: 1px solid red;
     margin-top: 20px;
     padding: 5px 5px 5px 5px;
+    display: inline-block;
 }
 
 #newSpan {
     margin: 20px 20px 20px 20px;
+    display: block;
 }
