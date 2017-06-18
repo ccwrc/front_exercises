@@ -24,9 +24,21 @@
     line-height: 200px;
 }*/
 
+/* https://www.w3schools.com/cssref/css3_pr_box-shadow.asp */
+
 /*#secondTask {   2.1 
     width: 400px;
     height: 400px;
     background-color: greenyellow;
     box-shadow: 0 0 0 5px red;
 }*/
+
+/* https://stackoverflow.com/questions/5458716/is-it-possible-to-set-transparency-in-css3-box-shadow */
+
+#secondTask {   
+    width: 400px;
+    height: 400px;
+    background-color: greenyellow;
+    box-shadow: 0 -10px 5px 0 blue,
+                0 10px 0 0 rgba(255, 0, 0, 0.15);
+}
