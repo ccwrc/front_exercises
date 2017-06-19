@@ -5,3 +5,8 @@
 #rightDiv {
     float: right;
 }
+
+#divTask2 {
+    width: 800px;
+    border: 1px solid red;
+}
