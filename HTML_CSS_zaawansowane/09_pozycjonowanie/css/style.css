@@ -1,12 +1,25 @@
 #leftDiv {
     float: left;
+    width: 200px;
+    height: 200px;
+    border: 1px solid blueviolet;
 }
 
 #rightDiv {
-    float: right;
+    float:left;
+    width: 200px;
+    height: 200px;
+    border: 1px solid blueviolet;
 }
 
 #divTask2 {
     width: 800px;
-    border: 1px solid red;
+    border-top: 1px solid red;
+}
+
+#bottomDiv {
+    clear: both;
+    width: 200px;
+    height: 200px;
+    border: 1px solid firebrick;
 }
