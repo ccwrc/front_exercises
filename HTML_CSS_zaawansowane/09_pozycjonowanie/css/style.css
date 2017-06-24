@@ -3,6 +3,7 @@
     width: 200px;
     height: 200px;
     border: 1px solid blueviolet;
+    text-transform: uppercase;
 }
 
 #rightDiv {
@@ -10,6 +11,7 @@
     width: 200px;
     height: 200px;
     border: 1px solid blueviolet;
+    text-transform: lowercase;
 }
 
 #divTask2 {
@@ -22,4 +24,10 @@
     width: 200px;
     height: 200px;
     border: 1px solid firebrick;
+}
+
+#menu li {
+    float: left;
+    padding: 5px;
+    list-style: none;
 }
