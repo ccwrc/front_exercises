@@ -22,6 +22,12 @@ console.log(typeof special); // object - w pewnym sensie błąd specyfikacji
 // https://stackoverflow.com/questions/18808226/why-is-typeof-null-object
 
 
+// zadanie 2 
+var var1 = 33;
+var var2 = 11;
+var result = 0;
+result = var1 + var2;
+console.log(result); // 44
 
 
 
