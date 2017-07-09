@@ -31,3 +31,10 @@ console.log(result); // 44
 
 
 
+// zadanie 3
+var emptyVar;
+console.log(emptyVar);  // undefined
+console.log(typeof emptyVar); // undefined
+
+
+
