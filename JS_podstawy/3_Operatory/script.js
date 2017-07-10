@@ -24,3 +24,43 @@ joinedString = string1 + string2;
 console.log(joinedString);
 joinedString = string1 + " " + string2;
 console.log(joinedString);
+
+
+// zadanie 4
+var myNumber = 4;
+var myString = "4";
+console.log (myNumber == myString);  // true - bez sprawdzenia typu zmiennej
+console.log (myNumber === myString);  // false - ze sprawdzeniem typu zmiennej
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
