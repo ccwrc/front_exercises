@@ -33,7 +33,14 @@ console.log (myNumber == myString);  // true - bez sprawdzenia typu zmiennej
 console.log (myNumber === myString);  // false - ze sprawdzeniem typu zmiennej
 
 
-
+// zadanie 5
+var counter = 145;
+console.log(counter);  // 145
+counter++;
+console.log(counter);  // 146
+counter--;
+counter--;
+console.log(counter);  // 144
 
 
 
