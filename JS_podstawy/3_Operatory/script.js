@@ -42,8 +42,18 @@ counter--;
 counter--;
 console.log(counter);  // 144
 
+//W pliku script.js stwórz trzy zmienne. Dwie niech przechowują dowolne liczby, a jedna 
+//o nazwie result, niech przechowuje null. Sprawdź czy liczba pierwsza jest 
+//większa od drugiej za pomocą odpowiedniego operatora i zapisz wynik w zmiennej result.
+//        Wypisz tą zmienną w konsoli.
 
 
+// zadanie 6
+var numberX = 3;
+var numberY = 4;
+var result = null;
+result = numberX > numberY;
+console.log(result); // < true // > false
 
 
 
