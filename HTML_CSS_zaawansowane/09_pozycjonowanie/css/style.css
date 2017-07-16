@@ -32,9 +32,37 @@
     list-style: none;
 }*/
 
-#task5img {
+/*#task5img {  task 5
     width: 80px;
     height: 80px;
     border-radius: 50%;
     float: left;
+}*/
+
+#task6 {
+    width: 900px;
+    height: 350px;
+    display: block;
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 10px;
+}
+
+#task6img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    float: left;
+    position: absolute;
+    top: 340px;
+    left: 890px;
+}
+
+/*z-index, left, top
+http://pl.html.net/tutorials/css/lesson15.php*/
+
+#test {
+    position:absolute;
+    bottom: 40px;
+    right: 101px;
 }
