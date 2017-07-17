@@ -39,7 +39,7 @@
     float: left;
 }*/
 
-#task6 {
+/*#task6 {  task 6
     width: 900px;
     height: 350px;
     display: block;
@@ -56,13 +56,29 @@
     position: absolute;
     top: 340px;
     left: 890px;
-}
+}*/
 
 /*z-index, left, top
 http://pl.html.net/tutorials/css/lesson15.php*/
 
-#test {
-    position:absolute;
-    bottom: 40px;
-    right: 101px;
+#task7imgA {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    float: left;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+#task7imgB {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    float: left;
+    position: absolute;
+    top: 45px;
+    left: 45px;
+    z-index: 1;
 }
