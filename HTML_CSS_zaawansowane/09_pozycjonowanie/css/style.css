@@ -83,12 +83,15 @@ http://pl.html.net/tutorials/css/lesson15.php*/
     z-index: 1;
 }*/
 
-.task8 {
+.task8 {  /* task8-9*/
     width: 250px;
     height: 350px;
     border: 3px solid black;
     margin-top: 50px;
     padding-top: 40px;
+    position: relative;
+    float: left;
+   margin-right: 10px;
 }
 
 .button {
@@ -108,8 +111,8 @@ http://pl.html.net/tutorials/css/lesson15.php*/
     height: 90px;
     border: 3px solid black;
     position: absolute;
-    left: 90px;
-    top: 2px;
+    left: 85px;
+    top: -48px;
     background-color: white;
 }
 
@@ -118,7 +121,7 @@ http://pl.html.net/tutorials/css/lesson15.php*/
     width: 40px;
     height: 40px;
     position: absolute;
-    left: 118px;
-    top: 30px;
+    left: 113px;
+    top: -20px;
     background-color: black;
 }
