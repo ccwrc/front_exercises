@@ -1,6 +1,3 @@
-//W pliku script.js stwórz dwie zmienne przechowujące liczby. Następnie za pomocą instrukcji 
-//warunkowej if ... else, wypisz w konsoli, 
-//        która z nich jest większa.
 
 // zadanie 1
 var number1 = -88;
@@ -12,4 +9,18 @@ if (number1 > number2) {
     console.log(number2 + " jest wieksza");
 } else {
     console.log("rowne lub brak mozliwosci porownania");
+}
+
+
+// zadanie 2
+var number21 = 33;
+var number22 = 3;
+var number23 = 332;
+
+if (number21 > number22 && number21 > number23) {
+    console.log(number21 + " jest najwieksza");
+} else if (number22 > number21 && number22 > number23) {
+    console.log(number22 + " jest najwieksza");
+} else {
+    console.log(number23 + " jest najwieksza");
 }
