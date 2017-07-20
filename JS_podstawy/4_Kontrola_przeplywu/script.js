@@ -40,6 +40,17 @@ for (var i = 1; i <= 10; i++) {
 console.log(result);
 
 
+// zadanie 5
+function checkNumber(n) {
+    for (var i = 0; i < n + 1; i++) {
+        if (i % 2 === 0) {
+            console.log(i + " - parzysta");
+        } else {
+            console.log(i + " - nieparzysta");
+        }
+    }
+}
+checkNumber(5);
 
 
 
