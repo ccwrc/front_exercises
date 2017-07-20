@@ -24,3 +24,45 @@ if (number21 > number22 && number21 > number23) {
 } else {
     console.log(number23 + " jest najwieksza");
 }
+
+
+// zadanie 3
+for (var i = 1; i <= 10; i++) {
+    console.log(i + " Lubię JavaScript");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
