@@ -96,7 +96,30 @@ for (var i = 1; i <= sizeN; i++) {
 }
 
 
+// zadanie 9
+var justNumber = 5;
 
+for (var i = 1; i <= justNumber; i++) {
+    for (j = 1; j <= justNumber; j++) {
+        if (i >= j) {
+            console.log("*");
+        } else {
+            console.log(j);
+        }
+    }
+    console.log(" ");
+}
+
+for (var i = 1; i <= justNumber; i++) {
+    for (j = 1; j <= justNumber; j++) {
+        if (j <= (justNumber - i + 1)) {
+            console.log("*");
+        } else {
+            console.log(j);
+        }
+    }
+    console.log(" ");
+}
 
 
 
