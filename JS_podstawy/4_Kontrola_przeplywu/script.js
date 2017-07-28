@@ -75,6 +75,25 @@ for (var i = 0; i < size; i++) {
 }
 
 
+// zadanie 8
+var sizeN = 5;
+// 2x for
+//for (var i = 0; i < sizeN; i++) {
+//    for (var j = 0; j <= i; j++) {
+//        console.log("* ");
+//    }
+//    console.log(" ");
+//} 
+
+// if
+for (var i = 1; i <= sizeN; i++) {
+    for (var j = 1; j <= sizeN; j++) {
+        if (i >= j) {
+            console.log("*");
+        }
+    }
+    console.log(" ");
+}
 
 
 
