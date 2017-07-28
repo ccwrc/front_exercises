@@ -52,6 +52,7 @@ function checkNumber(n) {
 }
 checkNumber(5);
 
+
 // zadanie 6
 for (var i = 1; i <= 3; i++) {
     for (var j = 1; j <= 3; j++) {
@@ -60,6 +61,18 @@ for (var i = 1; i <= 3; i++) {
 }
 
 
+// zadanie 7
+var size = 5;
+var starLines = "";
+
+for (var i = 0; i < size; i++) {
+    starLines = "";
+    for (var j = 0; j < size; j++) {
+        starLines = starLines + "*";
+    }
+    console.log(" ");
+    console.log(starLines);
+}
 
 
 
