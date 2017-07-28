@@ -122,6 +122,17 @@ for (var i = 1; i <= justNumber; i++) {
 }
 
 
+// zadanie 10
+var anotherNumber = 4;
+
+for (var i = 1; i <= anotherNumber; i++) {
+
+    for (var j = 1; j <= anotherNumber; j++) {
+        console.log(i + "*" + j + " = " + i * j + " |");
+    }
+}
+
+
 
 
 
