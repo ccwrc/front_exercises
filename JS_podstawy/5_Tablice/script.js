@@ -35,7 +35,15 @@ for (var i = 0; i < freeNumbersTask4.length; i++) {
 console.log("Suma parzystych: " + sumTask4);
 
 
-
+// zadanie 5
+var freeNumbersTask5 = [11, 2, 2, 12, 1, 1, 44, 1, 1, 11];
+var max = 0;
+for (var i = 0; i < freeNumbersTask5.length; i++) {
+    if (freeNumbersTask5[i] > max) {
+        max = freeNumbersTask5[i];
+    }
+}
+console.log("max = " + max);
 
 
 
