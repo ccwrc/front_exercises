@@ -24,6 +24,17 @@ for (var i = 0; i < freeNumbers.length; i++) {
 console.log("Suma: " + sum);
 
 
+// zadanie 4
+var freeNumbersTask4 = [11, 2, 2, 12, 1, 1, 1, 1, 1, 11];
+var sumTask4 = 0;
+for (var i = 0; i < freeNumbersTask4.length; i++) {
+    if (freeNumbersTask4[i] % 2 === 0) {
+        sumTask4 += freeNumbersTask4[i];
+    }
+}
+console.log("Suma parzystych: " + sumTask4);
+
+
 
 
 
