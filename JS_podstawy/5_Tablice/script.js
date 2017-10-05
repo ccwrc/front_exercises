@@ -46,6 +46,16 @@ for (var i = 0; i < freeNumbersTask5.length; i++) {
 console.log("max = " + max);
 
 
+// zadanie 6
+var freeNumbersTask6 = [11, 3, 2, 2, 14, 15, 44, 16, 13, 13];
+var firstIndex;
+for (var i = 0; i < freeNumbersTask6.length; i++) {
+    if (freeNumbersTask6[i] === freeNumbersTask6[i + 1]) {
+        firstIndex = i;
+        break;
+    }
+}
+console.log("firstIndex: " + firstIndex);
 
 
 
