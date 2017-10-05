@@ -58,6 +58,13 @@ for (var i = 0; i < freeNumbersTask6.length; i++) {
 console.log("firstIndex: " + firstIndex);
 
 
+// zadanie 7
+var freeNumbersTask7 = [1, 2, 3, 12, 14, 15, 44, 16, 77, 88];
+for (var i = freeNumbersTask7.length - 1; i >= 0; i--) {
+    console.log(freeNumbersTask7[i]);
+}
+
+
 
 
 
